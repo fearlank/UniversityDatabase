@@ -1,0 +1,5 @@
+CREATE TABLE DERSLER(
+	DERS_ID varchar(11) PRIMARY KEY,
+	BOLUM_AD nvarchar(250),
+	DERS_AD nvarchar(250)
+)

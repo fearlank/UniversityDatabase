@@ -1,0 +1,9 @@
+CREATE TABLE TRANSKRIPT(
+	OGRENCI_NO varchar(11) PRIMARY KEY,
+	OGRENCI_TC varchar(11),
+	OGRENCI_AD nvarchar(50),
+	OGRENCI_SOYAD nvarchar(50),
+	KAYIT_TARIH nvarchar(50),
+	BOLUM text,
+	GENEL_NOT_ORT FLOAT 
+)

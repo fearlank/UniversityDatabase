@@ -1,0 +1,8 @@
+CREATE TABLE KUTUPHANE(
+	KITAP_ID varchar(11) PRIMARY KEY,
+	KITAP_AD nvarchar(255),
+	KITAP_TURU nvarchar(255),
+	KITAP_YAZAR nvarchar(255),
+	KITAP_SAYFA int,
+	YAYIN_TARIH int
+)
